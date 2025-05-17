@@ -1,0 +1,5 @@
+supergraph:
+  introspection: true  # optional: enables GraphQL Playground and schema introspection
+  listen: 0.0.0.0:4000 # optional: default port
+  schema:
+    file: supergraph.graphql
